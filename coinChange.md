@@ -26,7 +26,7 @@ So we convert the problem to count the least coin number we need to get to total
 ### Step2: Condition Transfer Equation
    **f(amount) = min(f(amount - coin1), f(amount - coin2),..., f(amount - coin2)) + 1**
    
-   or **f(amount) = min(f(amount - coin1)+1, f(amount - coin2)+1,..., f(amount - coin2)+1)
+   or **f(amount) = min(f(amount - coin1)+1, f(amount - coin2)+1,..., f(amount - coin2)+1)**
 
 ### Step3: Initial Condition and border situation
 * count[0] = 0
