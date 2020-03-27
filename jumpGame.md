@@ -10,9 +10,10 @@
 
 ### Step1: Define condition
 * The last Step:
-Jumped from stone i, i < n-1
-..* Frog can jump to stone i
-..* The last step does not exceed the maximum jump distance: n-1 - i <= a<sub>i</sub>
+Jumped from stone i, i < n-1:
+    *Frog can jump to stone i
+    *The last step does not exceed the maximum jump distance: n-1 - i <= a<sub>i</sub>
+
 ==> Can frog jump to stone i => sub problem
 
 * Sub-problem:
