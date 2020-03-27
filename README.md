@@ -4,4 +4,5 @@ Lintcode/Leetcode in Python3
 
 ## Dynamic Programming
 [Coin Change](https://github.com/Amory0709/Data-Structure-and-Algorithm/blob/master/coinChange.md)
+
 [Unique Path](https://github.com/Amory0709/Data-Structure-and-Algorithm/blob/master/countUniquePaths.md)
