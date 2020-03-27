@@ -1,5 +1,6 @@
 # LintCode 114. Unique Path
 [link](https://www.lintcode.com/problem/unique-paths/description)
+
 *Method*: DP
 
 *Time Complexity*: O(mn)
@@ -16,7 +17,7 @@ And the unique path of [m-1][n-1] is equal to the sum of [m-2][n-1] or [m-1[n-2]
 So we convert the problem to sum the left and upper node's unique path count.
 
 ### Step2: Condition Transfer Equation
-**f(m,n) = f(m-1, n)+f(m, n-1)**
+   **f(m,n) = f(m-1, n)+f(m, n-1)**
 
 ### Step3: Initial Condition and border situation
 * count[0][0] = 1
