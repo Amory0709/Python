@@ -24,4 +24,4 @@ Lintcode/Leetcode in Python3
 
 [Jump Game](https://github.com/Amory0709/Data-Structure-and-Algorithm/blob/master/jumpGame.md)
 
-[Maximum Product Subarray]()
+[Maximum Product Subarray](https://github.com/Amory0709/Data-Structure-and-Algorithm/blob/master/MaximunProductSubarray.md)
