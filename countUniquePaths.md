@@ -8,27 +8,23 @@
 
 ## 4 Steps for DP
 ### Step1: Define condition
-⋅⋅* Unordered sub-list. 
-
-⋅⋅*The last Step:
+* The last Step:
 To get to the place [m-1][n-1], we can only move from [m-2][n-1] or [m-1[n-2].
 And the unique path of [m-1][n-1] is equal to the sum of [m-2][n-1] or [m-1[n-2].
 
-..* Sub-problem:
+* Sub-problem:
 So we convert the problem to sum the left and upper node's unique path count.
 
 ### Step2: Condition Transfer Equation
 **f(m,n) = f(m-1, n)+f(m, n-1)**
 
 ### Step3: Initial Condition and border situation
-..* count[0][0] = 1
-
-..* count[m][0] = 1
-
-..* count[0][n] = 1
+* count[0][0] = 1
+* count[m][0] = 1
+* count[0][n] = 1
 
 ### Step4: Calculation Order
-**Principle: when we try to figure out f(x), the conditions we need to use are already calculated. **
+**Principle: when we try to figure out f(x), the conditions we need to use are already calculated.**
 f(1,1) -> f(1,2) -> ... -> f(2,1), f(2,2)....
 
 Finally return the result.
