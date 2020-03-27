@@ -3,10 +3,9 @@
 
 *Method*: DP
 
-*Time Complexity*: O(n)
+*Time Complexity*: O(kn)  (k is the coins' count）
 
-*Space Complexity*: O(kn)  (k is the coins' count）
-
+*Space Complexity*: O(n)
 ## 4 Steps for DP
 With an Example:
 
