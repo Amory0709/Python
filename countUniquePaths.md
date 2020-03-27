@@ -26,6 +26,7 @@ So we convert the problem to sum the left and upper node's unique path count.
 
 ### Step4: Calculation Order
 **Principle: when we try to figure out f(x), the conditions we need to use are already calculated.**
+
 f(1,1) -> f(1,2) -> ... -> f(2,1), f(2,2)....
 
 Finally return the result.
