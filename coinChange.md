@@ -5,6 +5,10 @@
 
 *Time Complexity*: O(kn)  (k is the coins' count）
 
+(动态规划的时间复杂度 = 状态数 * 状态转移代价)
+
+(Time Complexity of DP = number of conditions * cost of condition transfer)
+
 *Space Complexity*: O(n)
 ## 4 Steps for DP
 With an Example:
