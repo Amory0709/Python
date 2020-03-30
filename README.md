@@ -27,3 +27,5 @@ Lintcode/Leetcode in Python3
 [Maximum Product Subarray](https://github.com/Amory0709/Data-Structure-and-Algorithm/blob/master/MaximunProductSubarray.md)
 
 [Word Break III](https://github.com/Amory0709/Data-Structure-and-Algorithm/blob/master/wordBreakIII.md)
+
+[Triangle](https://github.com/Amory0709/Data-Structure-and-Algorithm/blob/master/triangle.py)
