@@ -1,5 +1,6 @@
 # LintCode 683. Word Break III
 [link](https://www.lintcode.com/problem/word-break-iii/description)
+
 *Method*: DP
 
 *Time Complexity*: O(n<sup>2</sup>)  
