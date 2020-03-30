@@ -1,4 +1,4 @@
-# LintCode 191. Maximun Product Subarray
+# LintCode 683. Word Break III
 [link](https://www.lintcode.com/problem/word-break-iii/description)
 *Method*: DP
 
