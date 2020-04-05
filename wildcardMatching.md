@@ -5,6 +5,8 @@
 
 *Time Complexity*: O(n)?
 
+(参考令狐冲的解答：使用了记忆化搜索以后（memoization），时间复杂度是 O(nm)，n和m是两个字符串的长度。因为对于我们要记忆的东西（也就是搜索函数里的参数组合）一共就 O(nm) 种可能性。每种参数组合的可能性往下递归的时候，是 O(1) 的处理时间)
+
 *Space Complexity*: O(nm)
 
 ## Analysis
