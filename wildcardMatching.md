@@ -61,7 +61,7 @@ class Solution1:
             memo[i][j] = False
             
 class Solution2:
-# more clean edition
+# more clean edition, beat 91%
     """
     @param s: A string 
     @param p: A string includes "?" and "*"
