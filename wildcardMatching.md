@@ -11,7 +11,9 @@
 
 ## Code as below:
 ```python
-class Solution:
+
+class Solution1:
+# beat 99.1%
     """
     @param s: A string 
     @param p: A string includes "?" and "*"
@@ -56,4 +58,39 @@ class Solution:
             memo[i][j] = memo[i][j+1] or memo[i+1][j]
         else:
             memo[i][j] = False
+            
+class Solution2:
+# more clean edition
+    """
+    @param s: A string 
+    @param p: A string includes "?" and "*"
+    @return: is Match?
+    """
+    def isMatch(self, s, p):
+        memo = [[None for _ in range(len(p) + 1)] for _ in range(len(s) + 1)]
+        return self.dfs(s, p, 0, 0, memo)
+        
+    def dfs(self, s, p, i, j, memo):
+        #memoization
+        if memo[i][j] is not None:
+            return memo[i][j]
+            
+        # string reached end
+        if i == len(s):
+            #pattern not end
+            for char in p[j:]:
+                if char != '*': 
+                    return False
+            return True
+        
+        # pattern reached end, implies string did not end
+        if j == len(p):
+            return False
+        
+        if p[j] != '*':
+            memo[i][j] =  (p[j] == '?' or s[i] == p[j]) and self.dfs(s, p, i+1, j+1, memo)
+        else:
+            memo[i][j] = self.dfs(s, p, i+1, j, memo) or self.dfs(s, p, i, j+1, memo)
+        
+        return memo[i][j]
 ```
