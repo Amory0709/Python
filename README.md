@@ -31,3 +31,5 @@ Lintcode/Leetcode in Python3
 [Word Break III](https://github.com/Amory0709/Data-Structure-and-Algorithm/blob/master/wordBreakIII.md)
 
 [Triangle](https://github.com/Amory0709/Data-Structure-and-Algorithm/blob/master/triangle.py)
+
+[Wildcard Matching](https://github.com/Amory0709/Data-Structure-and-Algorithm/blob/master/wildcardMatching.md)
