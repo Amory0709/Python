@@ -35,3 +35,5 @@ Lintcode/Leetcode in Python3
 [Wildcard Matching](https://github.com/Amory0709/Data-Structure-and-Algorithm/blob/master/wildcardMatching.md)
 
 [Unique Paths II](https://github.com/Amory0709/Data-Structure-and-Algorithm/blob/master/uniquePathsII.py)
+
+[Climb Stairs](https://github.com/Amory0709/Data-Structure-and-Algorithm/blob/master/climbStairs.py)
