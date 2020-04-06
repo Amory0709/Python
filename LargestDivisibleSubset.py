@@ -2,11 +2,14 @@
 A very tricky problem.
 I thought I can use memoization
 And I ignore the calculation order so I forgot to sort.
+Link: lintcode.com/problem/largest-divisible-subset/description
 """
 class Solution:
     """
     @param: nums: a set of distinct positive integers
     @return: the largest subset 
+    Time O(n^2)
+    Space O(n)
     """
     def largestDivisibleSubset(self, nums):
         #error1: ignored the order of the nums
