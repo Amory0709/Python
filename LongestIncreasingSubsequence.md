@@ -8,7 +8,7 @@
 *Space Complexity*: O(n)
 
 ## Analysis
-![alt text](https://github.com/Amory0709/Data-Structure-and-Algorithm/blob/master/%20LongestIncreasingSubsequence.jpeg)
+![alt text](https://github.com/Amory0709/Data-Structure-and-Algorithm/blob/master/LongestIncreasingSubsequence.jpeg)
 
 ## Code as below:
 ```python
