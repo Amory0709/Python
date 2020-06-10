@@ -8,9 +8,9 @@ class Solution:
         left, right =  0, len(s)-1 
         
         while left < right:
-            while left < right and not self.validString(s[left]):
+            while left < right and not s[left].isalnum():
                 left += 1
-            while left < right and not self.validString(s[right]):
+            while left < right and not s[right].isalnum():
                 right -= 1
             if left < right and s[left].lower() != s[right].lower():
                 return False
@@ -20,8 +20,3 @@ class Solution:
     
         return True
         
-    
-    def validString(self, s):
-        if s.isalpha() or s.isdigit():#error: wrote isalpha() as isalpha
-            return True
-        return False
