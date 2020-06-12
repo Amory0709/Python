@@ -19,15 +19,16 @@ class Solution:
         
         # start BFS from inDegree=0
         queue = [k for k,v in inDegree.items() if v == 0]
-        ans = [k for k,v in inDegree.items() if v == 0]
+        ans = []
         
         while queue:
             course = queue.pop(0)
+            ans.append(course) #if add to result when pop out it will be much faster
             for next_course in edges[course]:
                 inDegree[next_course] -= 1
                 if inDegree[next_course] == 0:
                     queue.append(next_course)
-                    ans.append(next_course)
+                    # ans.append(next_course)
         
         # Impossible to finish
         if len(ans) != numCourses:
