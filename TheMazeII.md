@@ -8,7 +8,7 @@
 *Space Complexity*: O(n)
 
 ## Analysis
-![alt text](https://github.com/Amory0709/Data-Structure-and-Algorithm/blob/master/TheMazeII.pdf)
+![alt text](https://github.com/Amory0709/Data-Structure-and-Algorithm/blob/master/TheMazeII.jpg)
 
 ## Code as below:
 ```python
