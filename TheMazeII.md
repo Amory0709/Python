@@ -12,6 +12,7 @@
 
 ## Code as below:
 ```python
+#我的代码还是一步一步走， 但是也可以考虑沿着一个方向一直走直到停止
 class Solution:
     """
     @param maze: the maze
