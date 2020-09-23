@@ -2,6 +2,8 @@ class Solution:
     """
     @param grid: a 2D integer grid
     @return: an integer
+    Time: O(n) n stands for node count
+    Space: O(n)
     """
     def zombie(self, grid):
         #多源点bfs
